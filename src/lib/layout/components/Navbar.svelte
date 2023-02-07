@@ -3,7 +3,7 @@
 </script>
 
 <!-- Navigation -->
-<section class="top-nav">
+<nav class="nav-bar">
   <div class="text-uppercase">Jacks Bar</div>
   <input id="menu-toggle" type="checkbox" />
   <label class="menu-button-container" for="menu-toggle">
@@ -14,7 +14,7 @@
     <li class="text-uppercase"><a href="#booking">Bookings</a></li>
     <li class="text-uppercase"><a href="#menu">Menu</a></li>
   </ul>
-</section>
+</nav>
 
 <style>
 

@@ -5,8 +5,6 @@
 	let friendsImg = '/images/b-2.jpg';
 	let desertsImg = '/images/b-3.jpg';
 	let cheersImg = '/images/b-4.jpg';
-	// let foodImg = '/images/b-5.jpg';
-	// let beerImg = '/images/b-6.jpg';
 </script>
 
 <LightboxGallery>
@@ -32,10 +30,4 @@
 	<GalleryImage>
 		<img src={cheersImg} alt="Cheers" />
 	</GalleryImage>
-	<!-- <GalleryImage>
-		<img src={foodImg} alt="Food" />
-	</GalleryImage>
-	<GalleryImage>
-		<img src={beerImg} alt="Beer" />
-	</GalleryImage> -->
 </LightboxGallery>

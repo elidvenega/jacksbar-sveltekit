@@ -1,6 +1,3 @@
-<script>
-</script>
-
 <!--Inside the bar picture -->
 <div class="bar-picture">
 	<div class="layer" />
@@ -26,7 +23,7 @@
 </div>
 
 <!-- food grid pics -->
-<div class="grid-food" id="selection">
+<div class="grid-food" id="selection">  
 	<div class="gf-1" />
 	<div class="gf-2" />
 	<div class="gf-3" />

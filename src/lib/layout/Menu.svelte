@@ -18,7 +18,7 @@
 				Keep up to date with the daily menu. What's for lunch today? Click here to find out what's
 				on offer.
 			</p>
-			<button class="border-2 border-neutral-900 p-2" type="button">DINNER</button>
+			<button class="border-2 border-neutral-900 p-2 flex justify-center mx-24 mb-2" type="button">DINNER</button>
 
 			<p class="p-2 text-base">JACKS KITCHEN: MON - SAT 5pm - 10pm</p>
 		</div>

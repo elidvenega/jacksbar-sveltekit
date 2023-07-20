@@ -1,10 +1,10 @@
 <!--Inside the bar picture -->
-<div class="bar-picture">
+<div class="bar-picture ">
 	<div class="layer" />
-	<h3 class="text-uppercase" id="booking">Book an area</h3>
-	<button class="transparent-button m-2 text-uppercase" type="button">Make a booking</button>
-	<h3 class="text-uppercase">Here the whole bar?</h3>
-	<button class="transparent-button m-2 text-uppercase" type="button">Private hire enquiry</button>
+	<h3 class="text-uppercase text-white z-10 font-extrabold mt-36 text-5xl" id="booking">Book an area</h3>
+	<button class="transparent-button m-2 text-uppercase mb-6" type="button">Make a booking</button>
+	<h3 class="text-uppercase text-white z-10 font-extrabold text-5xl">Here the whole bar?</h3>
+	<button class="transparent-button m-2 text-uppercase " type="button">Private hire enquiry</button>
 </div>
 
 <!-- operating hours section -->

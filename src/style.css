@@ -205,15 +205,5 @@ h4 {
 	position: relative;
 }
 
-.bar-picture h3 {
-	color: #fff;
-	font-size: 2.3rem;
-	font-weight: bolder;
-	margin-top: 7rem;
-	z-index: 1;
-}
-.bar-picture p {
-	color: #fff;
-	font-size: 2rem;
-	z-index: 1;
-}
+
+	

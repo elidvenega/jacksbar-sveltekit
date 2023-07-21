@@ -11,7 +11,7 @@
 
 <div class="text-center p-9">
 	<h1 class="text-uppercase">Make a booking</h1>
-	<button class="booking-buttons bg-neutral-900 m-2 text-uppercase" type="button">Book now</button>
+	<button class="booking-buttons bg-neutral-900 m-2 text-uppercase text-white p-2" type="button">Book now</button>
 	<h1 class="text-uppercase m-5">Opening times</h1>
 	<p class="text-uppercase">Monday: Closed</p>
 	<p class="text-uppercase">Tuesday - Saturday: 11:30am - 11pm</p>
@@ -19,7 +19,7 @@
 	<h1 class="text-uppercase m-5">Contact</h1>
 	<p class="text-uppercase">96 ISABELLA ST, LONDON SE1 8DD</p>
 	<p class="text-uppercase">TEL: 020 7928 0678</p>
-	<button class="booking-buttons bg-neutral-900 m-2 text-uppercase" type="button">Email</button>
+	<button class="booking-buttons bg-neutral-900 m-2 text-uppercase text-white p-2" type="button">Email</button>
 </div>
 
 <!-- food grid pics -->

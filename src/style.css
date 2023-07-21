@@ -24,12 +24,6 @@ body {
 	z-index: 1;
 }
 
-.booking-buttons {
-	border: none;
-	border-radius: 3px;
-	color: #fff;
-	padding: 0.52rem;
-}
 
 /* food images */
 .grid-food {
@@ -96,18 +90,18 @@ body {
 	position: absolute;
 	width: 100%;
 }
-.img h1 {
+/* .img h1 {
 	color: #fff;
 	font-size: 7rem;
 	margin-top: 8rem;
 	z-index: 1;
-}
+} */
 .img p {
 	color: #fff;
 	font-size: 2rem;
 	z-index: 1;
 }
-#bar {
+ .bar {
 	font-size: 5rem;
 	margin: 10px;
 }

@@ -1,7 +1,7 @@
 <!-- Menu -->
 <div class="menu-container" id="menu">
 	<div class="menu-heading">
-		<h1>JOHNNY RICE</h1>
+		<h1 class="text-white mt-48 text-6xl">JOHNNY RICE</h1>
 	</div>
 	<div class="menu-text">
 		<div class="menu-content ml-9 p-4">

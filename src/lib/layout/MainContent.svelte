@@ -1,9 +1,11 @@
 <script></script>
 
 <div class="img">
-	<div class="layer"> </div>
+	<div class="layer" />
 	<h1 class="mt-24 text-white z-10 text-9xl">JACKS</h1>
-	<p class="z-10 text-white text-3xl">ESTD <strong class="text-white z-10 text-6xl">BAR</strong> 1963</p>
+	<p class="z-10 text-white text-3xl">
+		ESTD <strong class="text-white z-10 text-6xl">BAR</strong> 1963
+	</p>
 </div>
 
 <!-- About Section -->
@@ -28,3 +30,15 @@
 		jacksbookings@windmilltaverns.com
 	</p>
 </div>
+
+<style>
+	.img {
+		background: #0c0404 url('/images/jacks-bar.jpg') no-repeat center center/cover;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		height: 100vh;
+		max-width: 100%;
+		position: relative;
+	}
+</style>

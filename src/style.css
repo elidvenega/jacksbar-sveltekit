@@ -13,105 +13,10 @@ body {
 	line-height: 1.4;
 }
 
-/* Buttons */
-.transparent-button {
-	background: transparent;
-	border: #fff 3px solid;
-	border-radius: 3px;
-	color: #fff;
-	padding: 0.52rem;
-	text-align: center;
-	z-index: 1;
-}
-
-/* food images */
-.grid-food {
-	display: -ms-grid;
-	display: grid;
-	grid-template-columns: repeat(4, 1fr);
-	overflow: hidden;
-}
-.gf-1 {
-	/* background: url('/images/food-1.jpg') no-repeat center center/cover; */
-	height: 50vh;
-}
-.gf-2 {
-	/* background: url('/images/food-2.jpg') no-repeat center center/cover; */
-	height: 50vh;
-}
-.gf-3 {
-	/* background: url('/images/food-3.jpg') no-repeat center center/cover; */
-	height: 50vh;
-}
-.gf-4 {
-	/* background: url('/images/food-4.jpg') no-repeat center center/cover; */
-	height: 50vh;
-}
-.gf-5 {
-	/* background: url('/images/food-5.jpg') no-repeat center center/cover; */
-	height: 50vh;
-}
-.gf-6 {
-	/* background: url('/images/food-6.jpg') no-repeat center center/cover; */
-	height: 50vh;
-}
-.gf-7 {
-	/* background: url('/images/food-7.jpg') no-repeat center center/cover; */
-	height: 50vh;
-}
-.gf-8 {
-	background: url('/images/food-8.jpg') no-repeat center center/cover;
-	height: 50vh;
-}
-
-.img {
-	background: #0c0404 url('/images/jacks-bar.jpg') no-repeat center center/cover;
-	display: -ms-flexbox;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	height: 100vh;
-	max-width: 100%;
-	position: relative;
-}
-
 .layer {
 	background: #0c0404;
 	height: 100%;
 	opacity: 0.3;
 	position: absolute;
 	width: 100%;
-}
-
-.menu-container {
-	display: grid;
-	grid-template-columns: 1.5fr 1fr;
-	overflow: hidden;
-	height: 100vh;
-}
-
-.menu-heading {
-	background: url('/images/bar.jpg') no-repeat center center/cover;
-	color: #fff;
-	text-align: center;
-	padding: 1.4rem;
-	height: 100vh;
-	z-index: 1;
-}
-
-.menu-text {
-	padding: 1.4rem;
-	height: 60vh;
-	width: 80%;
-	z-index: 1;
-}
-
-.bar-picture {
-	background: #0c0404 url('/images/inside-bar.jpg') no-repeat center center/cover;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	height: 100vh;
-	max-width: 100%;
-	position: relative;
 }

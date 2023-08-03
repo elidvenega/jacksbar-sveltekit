@@ -45,9 +45,9 @@
 					? 'flex'
 					: 'hidden'}"
 			>
-				<a class="text-gray-100 text-lg" href="/home">About</a>
-				<a class="text-gray-100 text-lg" href="/blog">Bookings</a>
-				<a class="text-gray-100 text-lg" href="/blog">Menu</a>
+				<a class="text-gray-100 text-lg" href="#about">About</a>
+				<a class="text-gray-100 text-lg" href="#booking">Bookings</a>
+				<a class="text-gray-100 text-lg" href="#menu">Menu</a>
 			</div>
 		</nav>
 	</div>

@@ -1,5 +1,5 @@
 <script>
-	import Modal from './Modal.svelte';
+	import Modal from './components/Modal.svelte';
 
 	let wineImg = '/images/b-1.jpg';
 	let friendsImg = '/images/b-2.jpg';

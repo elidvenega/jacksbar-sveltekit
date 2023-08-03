@@ -1,44 +1,48 @@
 <script>
-	import ModalComponent from './ModalComponent.svelte';
+	/**
+	 * @type {any}
+	 */
+	export let imageUrl;
+	/**
+	 * @type {() => void}
+	 */
+	export let closeModal;
 
-	let wineImg = '/images/b-1.jpg';
-	let friendsImg = '/images/b-2.jpg';
-	let desertsImg = '/images/b-3.jpg';
-	let cheersImg = '/images/b-4.jpg';
-
-	let modalImageUrl = '';
-	let isModalVisible = false;
-
-	const images = [wineImg, friendsImg, desertsImg, cheersImg];
-
-	// @ts-ignore
-	function handleImageClick(imageUrl) {
-		modalImageUrl = imageUrl;
-		isModalVisible = true;
-	}
-
-	function closeModal() {
-		isModalVisible = false;
+	function handleCloseModal() {
+		closeModal();
 	}
 </script>
 
-<svelte:window on:keydown={(event) => event.key === 'Escape' && closeModal()} />
+<!-- svelte-ignore a11y-click-events-have-key-events -->
+<div class="modal-overlay" on:click={handleCloseModal}>
+	<div class="modal-img">
+		<!-- svelte-ignore a11y-img-redundant-alt -->
+		<img src={imageUrl} alt="Modal Image" />
+	</div>
+</div>
 
-<ul class="flex">
-	{#each images as imageUrl}
-		<li>
-			<!-- svelte-ignore a11y-click-events-have-key-events -->
-			<!-- svelte-ignore a11y-img-redundant-alt -->
-			<img
-				class="w-full min-h-full"
-				src={imageUrl}
-				alt="Image"
-				on:click={() => handleImageClick(imageUrl)}
-			/>
-		</li>
-	{/each}
-</ul>
+<style>
+	.modal-overlay {
+		position: fixed;
+		top: 0;
+		left: 12em;
+		width: 70%;
+		min-height: 50%;
+		background-color: rgba(0, 0, 0, 0.6);
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		z-index: 999;
+	}
 
-{#if isModalVisible}
-	<ModalComponent imageUrl={modalImageUrl} {closeModal} />
-{/if}
+	.modal-img {
+		background-color: #fff;
+		padding: 0.2rem;
+		box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+	}
+
+	img {
+		max-width: 100%;
+		height: auto;
+	}
+</style>

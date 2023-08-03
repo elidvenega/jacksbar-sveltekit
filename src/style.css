@@ -28,36 +28,35 @@ body {
 .grid-food {
 	display: -ms-grid;
 	display: grid;
-	-ms-grid-columns: (1fr);
 	grid-template-columns: repeat(4, 1fr);
 	overflow: hidden;
 }
 .gf-1 {
-	background: url('/images/food-1.jpg') no-repeat center center/cover;
+	/* background: url('/images/food-1.jpg') no-repeat center center/cover; */
 	height: 50vh;
 }
 .gf-2 {
-	background: url('/images/food-2.jpg') no-repeat center center/cover;
+	/* background: url('/images/food-2.jpg') no-repeat center center/cover; */
 	height: 50vh;
 }
 .gf-3 {
-	background: url('/images/food-3.jpg') no-repeat center center/cover;
+	/* background: url('/images/food-3.jpg') no-repeat center center/cover; */
 	height: 50vh;
 }
 .gf-4 {
-	background: url('/images/food-4.jpg') no-repeat center center/cover;
+	/* background: url('/images/food-4.jpg') no-repeat center center/cover; */
 	height: 50vh;
 }
 .gf-5 {
-	background: url('/images/food-5.jpg') no-repeat center center/cover;
+	/* background: url('/images/food-5.jpg') no-repeat center center/cover; */
 	height: 50vh;
 }
 .gf-6 {
-	background: url('/images/food-6.jpg') no-repeat center center/cover;
+	/* background: url('/images/food-6.jpg') no-repeat center center/cover; */
 	height: 50vh;
 }
 .gf-7 {
-	background: url('/images/food-7.jpg') no-repeat center center/cover;
+	/* background: url('/images/food-7.jpg') no-repeat center center/cover; */
 	height: 50vh;
 }
 .gf-8 {

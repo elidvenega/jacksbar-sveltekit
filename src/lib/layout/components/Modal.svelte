@@ -25,10 +25,10 @@
 	.modal-overlay {
 		position: fixed;
 		top: 0;
-		left: 12em;
+		left: 12%;
 		width: 70%;
 		min-height: 50%;
-		background-color: rgba(0, 0, 0, 0.6);
+		background-color: rgba(11, 11, 11, 0.6);
 		display: flex;
 		justify-content: center;
 		align-items: center;
@@ -38,11 +38,26 @@
 	.modal-img {
 		background-color: #fff;
 		padding: 0.2rem;
-		box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+		box-shadow: 0 2px 4px rgba(11, 11, 11, 0.2);
 	}
 
 	img {
 		max-width: 100%;
 		height: auto;
+	}
+
+	@media screen and (max-width: 760px) {
+		.modal-overlay {
+			position: fixed;
+			top: 0;
+			left: 0;
+			width: 100%;
+			min-height: 100%;
+			background-color: rgba(11, 11, 11, 0.6);
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			z-index: 999;
+		}
 	}
 </style>

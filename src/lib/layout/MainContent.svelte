@@ -2,14 +2,14 @@
 
 <div class="img">
 	<div class="layer" />
-	<h1 class="mt-24 text-white z-10 text-9xl">JACKS</h1>
+	<h1 class="mt-24 text-white z-10 text-6xl md:text-9xl">JACKS</h1>
 	<p class="z-10 text-white text-3xl">
-		ESTD <strong class="text-white z-10 text-6xl">BAR</strong> 1963
+		ESTD <strong class="text-white z-10 text-4xl md:text-6xl">BAR</strong> 1963
 	</p>
 </div>
 
 <!-- About Section -->
-<div id="about" class="p-9 text-center">
+<div id="about" class="p-7 md:p-9 text-center">
 	<p>
 		If you fancy stopping by, propping up the bar and having a drink in Waterloo, then Jacks is the
 		place to be! If you’re looking for a spot for after-work beers in Southwark then be sure to drop

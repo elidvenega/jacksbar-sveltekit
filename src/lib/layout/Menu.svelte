@@ -1,5 +1,5 @@
 <!-- Menu -->
-<div class="grid grid-cols-[1.5fr,1fr] overflow-hidden h-screen" id="menu">
+<div class="flex flex-col md:grid md:grid-cols-[1.5fr,1fr] md:h-screen" id="menu">
 	<div class="menu-heading">
 		<h1 class="text-white mt-48 text-6xl">JOHNNY RICE</h1>
 	</div>
@@ -18,7 +18,8 @@
 				Keep up to date with the daily menu. What's for lunch today? Click here to find out what's
 				on offer.
 			</p>
-			<button class="border-2 border-neutral-900 p-2 flex justify-center mx-36 mb-3" type="button"
+			<button class="border-2 border-neutral-900 p-2 flex 
+			justify-center mx-28 md:mx-36 mb-3" type="button"
 				>DINNER</button
 			>
 

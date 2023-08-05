@@ -14,14 +14,14 @@
 <!--Inside the bar picture -->
 <div class="bar-picture">
 	<div class="layer" />
-	<h3 class="text-uppercase text-white z-10 font-extrabold mt-36 text-5xl" id="booking">
+	<h3 class="text-uppercase text-white z-10 font-extrabold mt-36 text-4xl md:text-5xl" id="booking">
 		Book an area
 	</h3>
 	<button
 		class="m-2 text-uppercase mb-6 text-white z-10 text-xl border-solid border-2 neutral-50 p-2"
 		type="button">Make a booking</button
 	>
-	<h3 class="text-uppercase text-white z-10 font-extrabold text-5xl">Here the whole bar?</h3>
+	<h3 class="text-uppercase text-white z-10 font-extrabold text-4xl text-center md:text-5xl">Here the whole bar?</h3>
 	<button
 		class="m-2 text-uppercase text-white z-10 text-xl border-solid border-2 neutral-50 p-2"
 		type="button">Private hire enquiry</button
@@ -48,7 +48,7 @@
 </div>
 
 <!-- food grid pics -->
-<div class="grid grid-cols-4 overflow-hidden" id="selection">
+<div class=" hidden md:grid md:grid-cols-4" id="selection">
 	<div>
 		<img class="h-full max-w-full object-cover" src={imgfood1} alt="food-img-1" />
 	</div>

@@ -24,7 +24,7 @@
 
 <svelte:window on:keydown={(event) => event.key === 'Escape' && closeModal()} />
 
-<ul class="flex">
+<ul class="flex flex-col md:flex-row">
 	{#each images as imageUrl}
 		<li>
 			<!-- svelte-ignore a11y-click-events-have-key-events -->
@@ -43,12 +43,3 @@
 	<Modal imageUrl={modalImageUrl} {closeModal} />
 {/if}
 
-
-<style>
-	@media(max-width: 760px) {
-		ul {
-			display: flex;
-			flex-direction: column;
-		}
-	}
-</style>

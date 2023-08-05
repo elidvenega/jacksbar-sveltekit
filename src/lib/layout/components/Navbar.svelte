@@ -10,9 +10,7 @@
 	<div class="bg-neutral-900">
 		<nav class="container px-4 py-4 mx-auto md:flex md:justify-between md:items-center">
 			<div class="flex items-center justify-between">
-				<a class="text-xl font-bold text-gray-100 md:text-2xl " href="/home"
-					>Jacks Bar
-				</a>
+				<a class="text-xl font-bold text-gray-100 md:text-2xl" href="/home">Jacks Bar </a>
 				<!-- Mobile menu button -->
 
 				<!-- svelte-ignore a11y-click-events-have-key-events -->

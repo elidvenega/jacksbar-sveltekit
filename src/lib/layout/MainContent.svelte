@@ -1,6 +1,4 @@
-<script></script>
-
-<div class="img">
+<div class="img" id="top">
 	<div class="layer" />
 	<h1 class="mt-24 text-white z-10 text-6xl md:text-9xl">JACKS</h1>
 	<p class="z-10 text-white text-3xl">

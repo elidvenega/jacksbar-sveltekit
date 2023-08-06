@@ -9,6 +9,8 @@
 	const imgfood6 = '/images/food-6.jpg';
 	const imgfood7 = '/images/food-7.jpg';
 	const imgfood8 = '/images/food-8.jpg';
+
+	const images = [imgfood1, imgfood2, imgfood3, imgfood4, imgfood5, imgfood6, imgfood7, imgfood8];
 </script>
 
 <!--Inside the bar picture -->
@@ -21,7 +23,9 @@
 		class="m-2 text-uppercase mb-6 text-white z-10 text-xl border-solid border-2 neutral-50 p-2"
 		type="button">Make a booking</button
 	>
-	<h3 class="text-uppercase text-white z-10 font-extrabold text-4xl text-center md:text-5xl">Here the whole bar?</h3>
+	<h3 class="text-uppercase text-white z-10 font-extrabold text-4xl text-center md:text-5xl">
+		Here the whole bar?
+	</h3>
 	<button
 		class="m-2 text-uppercase text-white z-10 text-xl border-solid border-2 neutral-50 p-2"
 		type="button">Private hire enquiry</button
@@ -49,30 +53,13 @@
 
 <!-- food grid pics -->
 <div class=" hidden md:grid md:grid-cols-4" id="selection">
-	<div>
-		<img class="h-full max-w-full object-cover" src={imgfood1} alt="food-img-1" />
-	</div>
-	<div>
-		<img class="h-full max-w-full object-cover" src={imgfood2} alt="food-img-2" />
-	</div>
-	<div>
-		<img class="h-full max-w-full object-cover" src={imgfood3} alt="food-img-3" />
-	</div>
-	<div>
-		<img class="h-full max-w-full object-cover" src={imgfood4} alt="food-img-4" />
-	</div>
-	<div>
-		<img class="h-full max-w-full object-cover" src={imgfood5} alt="food-img-5" />
-	</div>
-	<div>
-		<img class="h-full max-w-full object-cover" src={imgfood6} alt="food-img-6" />
-	</div>
-	<div>
-		<img class="h-full max-w-full object-cover" src={imgfood7} alt="food-img-7" />
-	</div>
-	<div>
-		<img class="h-full max-w-full object-cover" src={imgfood8} alt="food-img-8" />
-	</div>
+	{#each images as FoodImg}
+		<div>
+			<!-- svelte-ignore a11y-click-events-have-key-events -->
+			<!-- svelte-ignore a11y-img-redundant-alt -->
+			<img class="w-full min-h-full" src={FoodImg} alt="Food Images" />
+		</div>
+	{/each}
 </div>
 
 <style>

@@ -1,10 +1,10 @@
 <script>
 	import Modal from './components/Modal.svelte';
 
-	let wineImg = '/images/b-1.jpg';
-	let friendsImg = '/images/b-2.jpg';
-	let desertsImg = '/images/b-3.jpg';
-	let cheersImg = '/images/b-4.jpg';
+	const wineImg = '/images/b-1.jpg';
+	const friendsImg = '/images/b-2.jpg';
+	const desertsImg = '/images/b-3.jpg';
+	const cheersImg = '/images/b-4.jpg';
 
 	let modalImageUrl = '';
 	let isModalVisible = false;
@@ -42,4 +42,3 @@
 {#if isModalVisible}
 	<Modal imageUrl={modalImageUrl} {closeModal} />
 {/if}
-

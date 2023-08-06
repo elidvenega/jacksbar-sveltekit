@@ -4,7 +4,7 @@ A project originally made with HTML and CSS and now taking that project and usin
 
 ## Tech Stack
 
-**Client:** HTML, CSS, SvelteKit
+**Client:** HTML, CSS, SvelteKit, Tailwind,
 
 ## Demo
 

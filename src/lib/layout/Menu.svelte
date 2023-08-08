@@ -38,7 +38,14 @@
 		color: #fff;
 		text-align: center;
 		padding: 1.4rem;
-		height: 100vh;
+		height: 85vh;
 		z-index: 1;
+	}
+
+	
+	@media screen and (min-width: 900px) {
+		.menu-heading {
+			height: 100vh;
+		}
 	}
 </style>

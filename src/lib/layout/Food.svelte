@@ -68,8 +68,15 @@
 		display: flex;
 		flex-direction: column;
 		align-items: center;
-		height: 100vh;
+		height: 85vh;
 		max-width: 100%;
 		position: relative;
+	}
+
+	
+	@media screen and (min-width: 900px) {
+		.bar-picture {
+			height: 100vh;
+		}
 	}
 </style>

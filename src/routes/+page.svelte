@@ -6,7 +6,6 @@
 	import Food from '$lib/layout/Food.svelte';
 	import Footer from '$lib/layout/components/Footer.svelte';
 	import '../style.css';
-
 </script>
 
 <Navbar />

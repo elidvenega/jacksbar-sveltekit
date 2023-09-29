@@ -1,4 +1,4 @@
-<script>
+<script lang="ts">
 	import Email from './components/Email.svelte';
 	import PhoneNumber from './components/PhoneNumber.svelte';
 	const imgfood1 = '/images/food-1.jpg';
@@ -10,7 +10,16 @@
 	const imgfood7 = '/images/food-7.jpg';
 	const imgfood8 = '/images/food-8.jpg';
 
-	const images = [imgfood1, imgfood2, imgfood3, imgfood4, imgfood5, imgfood6, imgfood7, imgfood8];
+	const images: string[] = [
+		imgfood1,
+		imgfood2,
+		imgfood3,
+		imgfood4,
+		imgfood5,
+		imgfood6,
+		imgfood7,
+		imgfood8
+	];
 </script>
 
 <!--Inside the bar picture -->
@@ -55,8 +64,6 @@
 <div class=" hidden md:grid md:grid-cols-4" id="selection">
 	{#each images as FoodImg}
 		<div>
-			<!-- svelte-ignore a11y-click-events-have-key-events -->
-			<!-- svelte-ignore a11y-img-redundant-alt -->
 			<img class="w-full min-h-full" src={FoodImg} alt="Food Images" />
 		</div>
 	{/each}
@@ -73,7 +80,6 @@
 		position: relative;
 	}
 
-	
 	@media screen and (min-width: 900px) {
 		.bar-picture {
 			height: 100vh;

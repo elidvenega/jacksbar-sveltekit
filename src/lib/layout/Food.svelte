@@ -1,6 +1,4 @@
 <script lang="ts">
-	import Email from './components/Email.svelte';
-	import PhoneNumber from './components/PhoneNumber.svelte';
 	const imgfood1 = '/images/food-1.jpg';
 	const imgfood2 = '/images/food-2.jpg';
 	const imgfood3 = '/images/food-3.jpg';
@@ -46,7 +44,7 @@
 <div class="text-center p-9">
 	<h1 class="text-uppercase text-xl">Make a booking</h1>
 	<button class="booking-buttons bg-neutral-900 m-2 text-uppercase text-white p-2" type="button"
-		><PhoneNumber href="tel:760-806-4646">Call To Book</PhoneNumber></button
+		><a href="tel:760-806-4646">Call To Book</a></button
 	>
 	<h1 class="text-uppercase m-5 text-xl">Opening times</h1>
 	<p class="text-uppercase">Monday: Closed</p>
@@ -56,7 +54,7 @@
 	<p class="text-uppercase">96 ISABELLA ST, LONDON SE1 8DD</p>
 	<p class="text-uppercase">TEL: 020 7928 0678</p>
 	<button class="booking-buttons bg-neutral-900 m-2 text-uppercase text-white p-2" type="button"
-		><Email href="mailto:evenegas_tech@outlook.com">Email</Email></button
+		><a href="mailto:evenegas_tech@outlook.com">Email</a></button
 	>
 </div>
 

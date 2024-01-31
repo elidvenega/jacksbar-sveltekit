@@ -1,9 +1,7 @@
-<script>
-	// @ts-nocheck
+<script lang="ts">
+	export let imageUrl: any;
 
-	export let imageUrl;
-
-	export let closeModal;
+	export let closeModal: any;
 
 	function handleCloseModal() {
 		closeModal();

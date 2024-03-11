@@ -1,4 +1,4 @@
-<script lang="ts"> 
+<script lang="ts">
 	import Modal from './components/Modal.svelte';
 
 	const wineImg = '/images/b-1.jpg';
@@ -9,8 +9,7 @@
 	let modalImageUrl = '';
 	let isModalVisible = false;
 
-	const images: string[]  = [wineImg, friendsImg, desertsImg, cheersImg];
-
+	const images: string[] = [wineImg, friendsImg, desertsImg, cheersImg];
 
 	function handleImageClick(imageUrl: string) {
 		modalImageUrl = imageUrl;

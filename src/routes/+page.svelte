@@ -1,16 +1,16 @@
 <script>
 	import Navbar from '$lib/layout/components/Navbar.svelte';
-	import MainContent from '$lib/layout/MainContent.svelte';
-	import Menu from '$lib/layout/Menu.svelte';
-	import ImagesModal from '$lib/layout/ImagesModal.svelte';
-	import Food from '$lib/layout/Food.svelte';
+	import PrimaryContent from '$lib/layout/PrimaryContent.svelte';
+	import FoodMenu from '$lib/layout/FoodMenu.svelte';
+	import FoodModal from '$lib/layout/FoodModal.svelte';
+	import FoodImages from '$lib/layout/FoodImages.svelte';
 	import Footer from '$lib/layout/components/Footer.svelte';
 	import '../style.css';
 </script>
 
 <Navbar />
-<MainContent />
-<Menu />
-<ImagesModal />
-<Food />
+<PrimaryContent />
+<FoodMenu />
+<FoodModal />
+<FoodImages />
 <Footer />

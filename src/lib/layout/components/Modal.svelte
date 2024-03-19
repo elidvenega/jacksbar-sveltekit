@@ -1,7 +1,7 @@
 <script lang="ts">
-	export let imageUrl: any;
+	export let imageUrl: string;
 
-	export let closeModal: any;
+	export let closeModal: () => void;
 
 	function handleCloseModal() {
 		closeModal();

@@ -1,6 +1,12 @@
+<script lang="ts">
+	const primaryContentInfo = {
+		titleOne: 'JACKS'
+	};
+</script>
+
 <div class="img" id="top">
 	<div class="layer" />
-	<h1 class="mt-24 text-white z-10 text-6xl md:text-9xl">JACKS</h1>
+	<h1 class="mt-24 text-white z-10 text-6xl md:text-9xl">{primaryContentInfo.titleOne}</h1>
 	<p class="z-10 text-white text-3xl">
 		ESTD <strong class="text-white z-10 text-4xl md:text-6xl">BAR</strong> 1963
 	</p>
